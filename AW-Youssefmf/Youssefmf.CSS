@@ -1,0 +1,171 @@
+/*
+Examen-Recuperación-Youssefmf
+Youssef Miftah El Baze
+Marzo 2024
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/*Media query para cambiar el aspecto de la página 
+dependiendo de la anchura de la misma*/
+@media (min-width:300px) {
+    /*Primer parrafo*/
+    #p1 {
+        overflow: auto;
+        margin-left: 100px;
+    }
+    /*Lista de información*/
+    #list {
+        text-align: center;
+        background-color: yellow;
+        color: white;
+        font-size: 40px;
+        width: 100%;
+    }
+    /*Segundo parrafo*/
+    #p2 {
+        overflow: auto;
+        float: right;
+        margin-left: 150px;
+    }
+    /*Tercer parrafo*/
+    #p3 {
+        overflow: auto;
+        margin-left: 150px;
+    }
+}
+@media (min-width:1200px) {
+    /*Primer parrafo*/
+    #p1 {
+
+        display: flex;
+        overflow: auto;
+    }
+    /*Lista de información*/
+    #list {
+        text-align: center;
+        background-color: yellow;
+        color: white;
+        font-size: 40px;
+        width: 20%;
+    }
+    /*Segundo parrafo*/
+    #p2 {
+        display: flex;
+        overflow: auto;
+    }
+    /*Tercer parrafo*/
+    #p3 {
+        display: flex;
+        overflow: auto;
+    }
+    main {
+        margin-left: 150px;
+    }
+    /*Formulario*/
+    form {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .in {
+        width: 1000px;
+        height: 30px;
+    }
+    select {
+        width: 1000px;
+        height: 30px;
+    }
+}
+
+/*Fuente de texto para la página*/
+@font-face {
+    font-family: "Fuente";
+    src: url(./Fuente/Raleway-Black.ttf);
+}
+/*Logo y pie de página*/
+header,
+footer {
+    margin: auto;
+    padding: 5px;
+    padding: 15px;
+    padding: 20px;
+}
+/*Pie de página*/
+footer {
+    text-align: center;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+}
+/*Menú de la página*/
+#MenuH {
+    overflow: auto;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    border: 1px white solid;
+}
+#MenuH a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    width: 25%;
+    padding: 12px;
+    transition: all 3s ease;
+}
+/*Efecto al pasar por encima del menú*/
+#MenuH>a:hover {
+    background-color: rgba(255, 255, 255, 0.644);
+    color: black;
+    transform: scale(1) translate(0px, 10px);
+}
+/*Imagen principal*/
+#img {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+/*Título de la información principal*/
+#TítuloPágina {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Fuente";
+}
+p {
+    width: 50%;
+}
+/*Texto resaltado de la información principal*/
+.text {
+    text-align: center;
+    color: grey;
+    font-size: large;
+    margin-left: 200px;
+}
+/*Formulario*/
+fieldset {
+    background-color: violet;
+}
+#Submit {
+    background-color: green;
+    float: right;
+}
+
+/*Listas de contenido disponible*/
+#recetas {
+    background-color: rgb(252, 248, 7);
+    width: 100%;
+    float: left;
+}
+.rece {
+    float: left;
+    width: 20%;
+}
+ul li {
+    list-style-type: none;
+    color: grey;
+}
